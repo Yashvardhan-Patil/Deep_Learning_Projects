@@ -1,10 +1,10 @@
-# 🧠 Deep Learning Projects - ANN (PyTorch)
+#  Deep Learning Projects - ANN (PyTorch)
 
 This repository contains my Deep Learning projects where I implemented Artificial Neural Networks (ANN) using PyTorch for both regression and classification tasks.
 
 ---
 
-## 🚀 Projects Included
+##  Projects Included
 
 ### 1️⃣ ANN for Regression (Power Plant Dataset)
 
