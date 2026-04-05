@@ -69,7 +69,11 @@ Input Features:**
 - Accuracy: 94%  
 
 ---
-
+## Saved Models
+This Repository includes trained model files
+-best_model_of_regression.pt=Trained ANN model for regression
+Note-
+These are pytorch binary files and cannot be previewde directly on github.
 ##  Tech Stack
 - Python  
 - PyTorch  
