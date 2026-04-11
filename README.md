@@ -98,4 +98,24 @@ These are pytorch binary files and cannot be previewde directly on github.
 - Model optimization  
 
 ---
+3)CNN For CIFAR DATASET
 
+Implemented a Convolutional Neural Network (CNN) using PyTorch to classify images from the CIFAR-10 dataset.
+
+Model-:
+3 Convolutional layers: 3→32 → 32→64 → 64→128
+Spatial size reduces: 32→16→8→4
+Final feature size: 2048
+Fully connected layers for classification (10 classes)
+
+Training-:
+Loss Function: CrossEntropyLoss
+Optimizer: Adam
+Epochs: 10
+
+Evaluation-:
+Predictions obtained by selecting the class with highest score
+Accuracy calculated by comparing predicted and actual labels
+
+Result-:
+Achieved ~75% accuracy on CIFAR-10
