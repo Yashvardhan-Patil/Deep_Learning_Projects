@@ -119,3 +119,42 @@ Accuracy calculated by comparing predicted and actual labels
 
 Result-:
 Achieved ~75% accuracy on CIFAR-10
+
+
+4)DOg vs Cat Classification Using CNN
+This project implements a Convolutional Neural Network (CNN) from scratch using PyTorch to classify images of cats and dogs.
+
+Images were preprocessed by resizing to 32×32 and normalizing pixel values. The model consists of three convolutional layers where feature depth increases (3 → 32 → 64 → 128) while spatial dimensions decrease through max pooling (32 → 16 → 8 → 4). This allows the network to learn hierarchical features from basic edges to complex object patterns.
+
+The final feature map (4×4×128) is flattened and passed through fully connected layers for binary classification.
+
+The model was trained using CrossEntropyLoss and the Adam optimizer over 8 epochs, achieving an accuracy of 82.13% on the dataset.
+
+Key Highlights
+Learned hierarchical feature extraction using CNN
+Demonstrated spatial reduction with increasing feature depth
+Applied effective preprocessing and training strategies
+
+5)RNN For Sentinal Analysis
+
+
+This project performs sentiment analysis on the IMDB movie review dataset using a Recurrent Neural Network (RNN).
+
+🔹 Workflow
+Text preprocessing (remove URLs, HTML tags, punctuation, stopwords, stemming)
+Feature extraction using TF-IDF
+Data conversion using TensorDataset and DataLoader
+Model building using RNN + Fully Connected layer
+Training using BCELoss and Adam optimizer (10 epochs)
+Evaluation using accuracy metric
+🔹 Model Details
+RNN with hidden size = 128
+Final layer: Linear (hidden → 1)
+Activation: Sigmoid for binary classification
+🔹 Result
+Achieved 85.78% accuracy on test data
+🔹 Tech Stack
+Python
+PyTorch
+NLP (TF-IDF, preprocessing)
+
