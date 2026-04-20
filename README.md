@@ -158,3 +158,10 @@ Python
 PyTorch
 NLP (TF-IDF, preprocessing)
 
+7)CliffWalking With SARSA Algorithm
+
+Taken the gamma value 0.99,epsilon=0.1,alpha=0.5 and episodes=500
+
+8)CliffWaking With Q-Learning Algorithm
+
+Taken the gamma value 0.99,epsilon=0.1,alpha=0.5 and episodes=500
